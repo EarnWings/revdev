@@ -1,0 +1,89 @@
+@media screen and (max-width: 310px) {
+	header {
+		border-bottom: 4px solid #BD282D;
+		height: 6em;
+	}
+	
+	#name-wrap {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	#name {
+		font-size: 1.7em;
+		text-align: center;
+	}
+	
+	header #tagline {
+		display: block;
+		font-size: 0.9em;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 679px) {
+	#name-wrap {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	#name {
+		font-size: 1.7em;
+		text-align: center;
+	}
+	
+	header #tagline {
+		display: block;
+		font-size: 0.9em;
+		text-align: center;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 680px) {
+	#featured {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	#theatre-boost {
+		width: 100%;
+	}
+	
+	#abundance-aviation {
+		width: 49%;
+		margin-right: 1%;
+	}
+	
+	#cap {
+		width: 49%;
+		margin-left: 1%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#theatre-boost {
+		width: 32%;
+		margin-right: 1%;
+	}
+	
+	#abundance-aviation {
+		width: 32%;
+		margin: 0 1%;
+	}
+	
+	#cap {
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#wrapper {
+		width: 1200px;
+	}
+}
